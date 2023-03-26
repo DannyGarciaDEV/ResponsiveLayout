@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+
+.header1 {
+    width: 100%;
+    height: 140px;
+    border: 1px solid rgb(16, 1, 1);
+    background-color: rgb(248, 249, 253);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+li {
+    width: 8%;
+    height: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    flex-direction: row;
+    margin: 2% 3% 2% 1%;
+}
+
+
+body {
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+    display: inline-table;
+
+}
+
+section {
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.large{
+    width: 70%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row; }
+
+
+    .tiny{
+        width: 30%;
+        height: 400px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row; }
+
+.tiny2 {
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row; }
+
+.tiny3 {width: 40%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row; }
+
+
+
+footer{
+    width: 100%;
+    height: 140px;
+    border: 1px solid rgb(16, 1, 1);
+    background-color: rgb(248, 249, 253);
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 300px) {
+    
+body {
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+    display: inline-table;
+
+}
+
+section + section {
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.tiny2 {
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.tiny3 {
+width: 100%;
+height: 400px;
+border: 1px solid black;
+display: flex;
+flex-direction: row;
+}
+.stay{
+    width: 8%;
+    height: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    flex-direction: row;
+    margin: 2% 3% 2% 1%;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    border: 1px solid rgb(16, 1, 1);
+    background-color: rgb(248, 249, 253);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+li {
+    display: none;
+}
+
+.tiny {
+    display: none;}
+
+
+.large {
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.tiny2{display: none;}
+
+.tiny3 {
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;} }
+
+
+
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    
+
+body {
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+    display: inline-table;
+
+}
+
+section + section {
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.tiny2 {
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.tiny3 {
+width: 100%;
+height: 400px;
+border: 1px solid black;
+display: flex;
+flex-direction: row;
+}
+.stay{
+    width: 8%;
+    height: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    flex-direction: row;
+    margin: 2% 3% 2% 1%;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    border: 1px solid rgb(16, 1, 1);
+    background-color: rgb(248, 249, 253);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+li {
+    display: none;
+}
+
+.tiny {
+    display: none;}
+
+
+.large {
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .large {
+        width: 50%;
+        height: 400px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;}
+        .tiny {
+            width: 50%;
+            height: 400px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+       
